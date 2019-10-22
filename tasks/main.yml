@@ -31,9 +31,5 @@
 
 - name: "Debug Statement"
   debug:
-   msg: "The files should now be deleted. This is required to trigger that notify for some reason."
+    msg: "The files should now be deleted. This is required to trigger that notify for some reason."
   notify: "restart bareos all"
-
-
-
-
